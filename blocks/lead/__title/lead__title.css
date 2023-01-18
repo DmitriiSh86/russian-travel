@@ -9,3 +9,9 @@
     margin-top: 56px;
     margin-bottom: 32px;
 }
+
+@media (max-width: 1050px){
+    .lead__title{
+        margin-top: 48px;
+    }
+}

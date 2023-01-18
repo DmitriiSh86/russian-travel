@@ -4,3 +4,18 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 1060px){
+    .lead{
+        max-width: 928px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media (max-width: 800px){
+    .lead{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

@@ -7,3 +7,19 @@
     margin-top: 92px;
     margin-bottom: 24px;
 }
+
+@media (max-width: 1200px){
+    .footer{
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media (max-width: 800px){
+    .footer{
+        margin-top: 88px;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 24px;
+    }
+}

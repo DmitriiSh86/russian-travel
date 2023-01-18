@@ -8,3 +8,9 @@
     max-width: 620px;
     margin-bottom: 64px;
 }
+
+@media (max-width: 1060px){
+    .lead__subtitle{
+        margin-bottom: 56px;
+    }
+}

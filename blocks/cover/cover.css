@@ -4,6 +4,8 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    gap: 32px;
+    justify-content: center;
     position: relative;
     width: 80%;
     text-decoration: none;
@@ -29,3 +31,35 @@
   .cover:hover::before {
     opacity: 0.8;
   }
+
+  @media (max-width: 1200px){
+    .cover{
+      width: 100%;
+      min-width: 100vh;
+      min-height: 640px;
+    }
+}
+
+@media (max-width: 800px){
+  .cover{
+    width: 100%;
+    min-width: 100vh;
+    min-height: 480px;
+    margin-top: -8px;
+}
+
+@media (max-width: 650px){
+  .cover{
+    width: 100%;
+    min-width: 100vh;
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 450px){
+  .cover{
+    width: 100%;
+    min-width: 100vh;
+    min-height: 200px;
+  }
+}
