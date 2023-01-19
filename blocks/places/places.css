@@ -12,9 +12,16 @@
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 920px){
     .places{
         margin-left: 24px;
         margin-right: 24px;
+    }
+}
+
+@media (max-width: 720px){
+    .places{
+        margin-left: 0;
+        margin-right: 0;
     }
 }

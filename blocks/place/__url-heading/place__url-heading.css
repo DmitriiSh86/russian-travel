@@ -3,12 +3,18 @@
     line-height: 170%;
     font-weight: 400;
     margin: 0;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 920px){
     .place__url-heading{
         font-size: 12px;
         line-height: 12px;
+    }
+}
+
+@media (max-width: 720px){
+    .place__url-heading{
+        margin-left: 16px;
     }
 }

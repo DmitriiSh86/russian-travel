@@ -10,3 +10,11 @@
         margin-right: 24px;
     }
 }
+
+@media (max-width: 450px){
+    .header{
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 16px;
+    }
+}
