@@ -13,6 +13,7 @@
 @media (max-width: 920px){
     .place__paragraph{
         font-size: 16px;
+        line-height: 162%;
     }
     .place__paragraph:first-of-type{
         margin-bottom: 25px;
@@ -21,7 +22,9 @@
 
 @media (max-width: 720px){
     .place__paragraph{
+        line-height: 163%;
         margin-left: 16px;
-    }
+        margin-right: 16px;   
+    }    
 }
 

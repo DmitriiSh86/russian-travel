@@ -6,3 +6,9 @@
     margin-bottom: 33px;
     max-width: 690px;
 }
+
+@media (max-width: 920px){
+    .intro__text{
+        margin-bottom: 32px;
+    }
+}
