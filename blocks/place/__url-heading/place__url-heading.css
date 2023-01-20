@@ -2,13 +2,13 @@
     font-size: 12px;
     line-height: 170%;
     font-weight: 400;
-    margin: 0;
-    margin-bottom: 5px;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 @media (max-width: 920px){
     .place__url-heading{
-        font-size: 12px;
         line-height: 12px;
         margin-bottom: 14px;
     }

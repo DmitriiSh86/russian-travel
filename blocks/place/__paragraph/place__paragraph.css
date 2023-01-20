@@ -2,12 +2,12 @@
     font-size: 18px;
     line-height: 161%;
     font-weight: 400;
-    margin: 0;
+    margin: 0 0 26px;
     grid-area: paragraph;
 }
 
-.place__paragraph:first-of-type{
-    margin-bottom: 26px;
+.place__paragraph:last-of-type{
+    margin-bottom: 0;
 }
 
 @media (max-width: 920px){

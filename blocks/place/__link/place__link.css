@@ -11,13 +11,6 @@
     transition: 0.2s ease;
 }
 
-@media (max-width: 800px){
-    .place__link{
-        font-size: 18px;
-        line-height: 22px;
-    }
-}
-
 @media (max-width: 720px){
     .place__link{
         margin-left: 16px;
