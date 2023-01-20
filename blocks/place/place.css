@@ -13,6 +13,10 @@
     .place{
         grid-template-columns: 440px 1fr;
         grid-column-gap: 32px;
+        margin-bottom: 80px;
+    }
+    .place:last-of-type{
+        margin-bottom: 92px;
     }
 }
 
@@ -24,7 +28,7 @@
         margin-bottom: 74px;
     }
     .place:last-of-type{
-        margin-bottom: 56px;
+        margin-bottom: 66px;
     }
 }
 
@@ -39,6 +43,6 @@
         grid-row-gap: 32px;
     }
     .place:last-of-type{
-        margin-bottom: 31px;
+        margin-bottom: 41px;
     }    
 }

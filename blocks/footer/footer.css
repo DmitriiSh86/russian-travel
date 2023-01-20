@@ -1,6 +1,6 @@
 .footer{
     max-width: 1184px;
-    margin: 92px auto 24px;
+    margin: 94px auto 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,9 +24,11 @@
 
 @media (max-width: 700px){
     .footer{
+        width: 186px;
         flex-direction: column;
         margin-top: 64px;
         margin-left: 16px;
+        margin-right: 0;
         gap: 48px;
         align-items: flex-start;
     }

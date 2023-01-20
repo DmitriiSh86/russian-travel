@@ -1,13 +1,12 @@
 .cover{
     min-width: 1184px;
     min-height: 740px;
-    margin: 10px auto 0;
+    margin: 10px auto 0;    
     display: flex;
     flex-direction: column;
-    gap: 32px;
     justify-content: center;
     position: relative;
-    width: 80%;    
+    width: 80%;
     background-position: center;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
@@ -32,6 +31,7 @@
 
   @media (max-width: 1200px){
     .cover{
+      margin: 0;
       width: 100%;
       min-width: 100%;
       min-height: 640px;
@@ -50,6 +50,5 @@
 @media (max-width: 400px){
   .cover{
     min-height: 200px;
-    gap: 16px;
   }
 }
